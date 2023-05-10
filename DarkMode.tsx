@@ -7,7 +7,7 @@ export default function DarkMode() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={'page'${darkMode}}>
+    <div className={'page${darkMode}'}>
 <button className='dark-mode-button' 
 onClick={ () => setDarkMode(true) }>
 Dark Mode
