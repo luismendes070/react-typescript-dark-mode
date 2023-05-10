@@ -8,8 +8,15 @@ export default function DarkMode() {
 
   return (
     <div className={'page'${darkMode}}>
-<button className='dark-mode-button' onClick={ () => setDarkMode(true) }></button>
-<button className='light-mode-button' onClick={ () => setDarkMode(true) }></button>
+<button className='dark-mode-button' 
+onClick={ () => setDarkMode(true) }>
+Dark Mode
+</button>
+
+<button className='light-mode-button' onClick={ () => setDarkMode(true) }>
+Light Mode
+</button>
     </div>
-  );
-}
+  ); // end return 
+  
+} // end function DarkMode
